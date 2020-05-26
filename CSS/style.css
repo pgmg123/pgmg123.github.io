@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+body {
+    position: relative;
+    min-width: 800px;
+    height: 100%;
+    
+   background-image: url(/Website/image/bg_3.jpg); /* (/) in css (\) in html fml */
+   
+}
+
+h1 {
+    position: relative;
+    float: center;
+    margin: 0px;
+    padding: 0px;
+    
+    text-align: center;
+}
+header {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color:  #fb6414;
+}
+footer {
+    position: relative;
+    float: left;
+    background-image: url(/Website/image/resize4.jpg);
+    background-size: contain;
+    /* overflow: auto; */
+}
+.center {
+    position: relative;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .grid {
+    min-height: 800px;
+    position: relative;
+    float: center;
+    border-image-repeat: repeat;
+      display: grid;
+      
+      gap: 30px;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 10%;
+      
+      margin-top: 6%;
+      margin-bottom: 50px;
+      object-fit: none;
+  }
+  a {
+    position: relative;
+    margin-left: 780px;
+    object-fit: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: darkorange;
+    color: black;
+  }
+  
+  .previous {
+    background-color: rgb(255, 136, 0);
+    color: black;
+  }
+  .previous1 {
+    background-color: gray;
+    color: black;
+  }
+  
+  .next {
+    background-color: rgb(255, 136, 0);
+    color: white;
+  }
+  .next1 {
+    background-color: gray;
+    color: black;
+  }
+  
